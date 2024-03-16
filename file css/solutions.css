@@ -1,0 +1,81 @@
+.ex-1-square:hover {
+    transition: 2s;
+    background-color: red;
+}
+
+.ex-2-square:active{
+    background-color: red;
+    width: 20rem;
+    transition: 2s;
+}
+
+.ex-3-square:hover{
+    border-radius: 7rem;
+    transition: 3s;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+    transition: 3s;
+}
+
+.ex-5-square:hover{
+    width: 10rem;
+    height: 10rem;
+}
+.ex-5-square:active{
+    width: 2rem;
+    height: 2rem;
+}
+
+.ex-6-img:hover{
+    filter: grayscale(2);
+}
+
+.ex-7-img{
+    transition: 2s;
+}
+.ex-7-img:hover{
+    filter: brightness(6);
+}
+
+.ex-8-img:hover{
+    filter: brightness(3) grayscale(3);
+    border-radius: 3rem;
+}
+
+.ex-9-img:hover{
+    filter: brightness(1);
+    border-radius: 2rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.ex-10-icon {
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+.ex-11-icon:hover{
+    animation: spin 2s linear;
+}
+/*non mi è chiaro il @keyframes, ho provato ad usarlo però con scarsi risultati. */
+
+/* .ex-12-button .ex-12-top-white{
+    animation-name: rotate 2s;
+    @keyframes rotate {
+        0%{
+            left:(10%);
+        }
+        50%{
+            left:(50%);
+        }
+        100%{
+            left:(100%);
+        }
+    }
+} */
